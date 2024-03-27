@@ -1,0 +1,45 @@
+
+<img class="card-img-top image-responsive" style="max-width: 100px;max-height: 100px;" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png%201x,%20https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Card image cap">
+<div class="row">
+    <div class="col-xs-12">
+       <h1>{{contact.firstName}} {{contact.lastName}}</h1>
+    </div>
+    <hr/>
+</div>
+<div class="row">
+    <div class="col-xs-3">
+        <b>Email</b>
+    </div>
+    <div class="col-xs-5">
+        {{contact.email}}
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-3">
+        <b>Primary Contact</b>
+    </div>
+    <div class="col-xs-5">
+        {{contact.primaryContact}}
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-3">
+        <b>Secondary Contact</b>
+    </div>
+    <div class="col-xs-5">
+        {{contact.primaryContact}}
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-3">
+        <b>Address</b>
+    </div>
+    <div class="col-xs-5">
+        {{contact.address}}
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-3">
+        <button class="btn btn-danger" (click)="deleteContact()">Delete Contact</button>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-xs-10">        
+        <a routerLinkActive="active" style="cursor: pointer;" [routerLink]="['/contact',contact.id]" class="list-group-item clearfix">
+            <span class="pull-left" style="padding-right: 20px;">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png%201x,%20https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="" class="image-responsive" style="max-height:50px;"/>
+            </span>
+             <div class="pull-left">
+                <h4 class="list-group-item-heading">{{contact.firstName}}</h4>
+                <p class="list-group-list-item">{{contact.lastName}}</p>
+            </div>
+        </a>
+    </div>
+</div>

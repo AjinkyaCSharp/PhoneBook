@@ -1,0 +1,15 @@
+<div class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand">Phone Book</a>
+        </div>
+        <div class="navbar-default">
+            <ul class="nav navbar-nav">
+                <li routerLinkActive="active"><a  routerLink="/contact">Contacts</a></li>
+                <li routerLinkActive="active"><a  routerLink="/edit-contact" >New Contact</a></li>
+            </ul>
+            <button  (click)="authService.SignOut()" class="btn btn-danger pull-right">Sign Out</button>
+        </div>
+
+    </div>
+</div>
